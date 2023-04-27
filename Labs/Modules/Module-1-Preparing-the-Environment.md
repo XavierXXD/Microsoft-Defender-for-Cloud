@@ -128,11 +128,11 @@ When the deployment is complete, you should see the following:
 #### Configure the data collection settings in Microsoft Defender for Cloud
 
 1. Go back to the **Environment settings** in the sidebar and drill down into your **Azure subscription** (Azure subscription 1).
-2. Navigate to **Auto provisioning**
+2. Navigate to **Settings & monitoring** next to the Save button
 
-![Auto-provisioning](../Images/module1_loganalytics_status_yl.png?raw=true)
+![Uploading setting_n_monitoring.png…]()
 
-3. On the **Auto provisioning - Extensions** page, set **Log Analytics agent/Azure Montior agent** to **On** (if it's not already set to On)
+3. On the **Settings & monitoring** page, set **Log Analytics agent/Azure Montior agent** to **On** (if it's not already set to On)
 4. Click **Edit configuration** under the configuration column.
 5. On the workspace configuration section, use the **Custom workspace** option to select your workspace **asclab-xxx** (which has been created by the ARM template).
 6. Under **Security events storage** section, select **All Events** option.
